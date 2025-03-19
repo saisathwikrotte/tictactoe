@@ -1,0 +1,62 @@
+/* Add this CSS to your style.css */
+body {
+    background-color: blueviolet; /* Set background to violet */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+#game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 5px;
+    margin: 20px auto;
+    width: 320px;
+    height: 320px;
+}
+
+.cell {
+color:red;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 24px;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+button {
+    background-color: darkviolet;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: purple;
+}
+
+label {
+    color: white;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+input[type="checkbox"] {
+    margin: 10px;
+}
